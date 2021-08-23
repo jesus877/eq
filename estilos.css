@@ -1,0 +1,111 @@
+.encabezado{
+    background-color: #003D73;
+    width: 15%;
+    font-size: 46px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-shrink: 1;
+    height: max-content;
+    float: left;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.cimagen{
+    width: 1030px;
+    font-size: 50px;
+    color:black;
+    height: 121px;
+    float: left;
+    z-index:0;
+    margin-top:16px;
+    border-radius: 30px;
+    display: flex;
+    padding-left: 10px;
+}
+
+.con{
+    height: 194px;
+    display: flex;
+    padding: 10px;
+    width: 80%;
+    flex-wrap: wrap;
+    align-items:flex-start;
+}
+
+footer{
+    background-color: rgb(230, 144, 31) ;
+    color: white;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    width: 1290px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.cont2{
+    width: 99%;
+    height: 500px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+.ep{
+    position: absolute;
+    right: 47px;
+    flex: 0 1 300px;
+    height: 101px;
+    padding: 10px;
+    width: 565px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cajamenor{
+    width: 33%;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    height: 460px;
+}
+
+.imagen{
+    width: 450px;
+    height: 120px;
+    border-radius: 30px;
+    background-color: blanchedalmond;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: burlywood;
+    color: black;
+}
+
+form{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+}
+
+audio{
+    width: 190px;
+}
+
+h2{
+    color: #003D73;
+}
+
+h3{
+    color: #003D73;
+}
+
+.wsq{
+    margin-left: 10px;
+    width: 390px;
+    height: 112px;
+    margin-top: 5px;
+}

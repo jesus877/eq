@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gigántes</title>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="estilos.css">
+        <link type="text/css" rel="stylesheet" href="menu.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="cmenu.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <style>
+            html{
+                margin-left: 10px;
+            }
+        </style>
+        <div class="encabezado" style="width: 250px;">
+            Gigantes de la tecnología
+        </div>
+        <div class="con" id="contmenu">
+            <div style="z-index:1; position: absolute; margin-left: 140px; top: 10px; left: 200px;">
+               <ul>
+                   <li id="c1"><a href="index.html">Inicio</a>
+
+                   </li>
+                   <li id="c1"><a>Google</a>
+                       <ul>
+                           <li id="c2" style="padding-top: 20px; margin-top: 19px;"><a href="Google.html">Orígenes</a></li>
+                           <li id="c2"><a href="">Estatus Actual</a></li>
+                           <li id="c2"><a href="">Financición de investigaciones</a></li>
+                           <li id="c2"><a href="">Productos</a></li>
+                       </ul>
+                   </li>
+                   <li id="c1"><a>Apple</a>
+                       <ul>
+                           <li id="c2" style="padding-top: 20px; margin-top: 19px"><a href="Apple.html">Orígenes</a></li>
+                           <li id="c2"><a href="">Estatus actual</a></li>
+                           <li id="c2"><a href="">Financiación de proyectos</a></li>
+                           <li id="c2"><a href="">Productos</a></li>
+                       </ul>
+                   </li>
+                   <li id="c1"><a>Sony</a>
+                       <ul>
+                        <li id="c2" style="padding-top: 20px; margin-top: 19px"><a href="#">Orígenes</a></li>
+                        <li id="c2"><a href="">Estatus actual</a></li>
+                        <li id="c2"><a href="">Financiación de proyectos</a></li>
+                        <li id="c2"><a href="">Productos</a></li>
+                       </ul>
+                   </li>
+                   <li id="c1"><a>Información</a>
+                       <ul>
+                           <li id="c2" style="padding-top: 20px; margin-top: 19px"><a href="qsom.html">Quienes somos</a></li>
+                           <li id="c2"><a href="">Contacto</a></li>
+                           <li id="c2"><a href="">Media</a></li>
+                       </ul>
+                   </li>
+               </ul>
+               </div>
+           <div class="cimagen" style="margin-left: 170px;position: absolute; top: 80px; left: 200px; width: fit-content;">
+               <div class="imagen" style="padding: 20px; text-align: center; height: 90px; padding-top: 10px;" ><p style="font-size: 23px; color: rgb(0, 0, 0);font-family: 'Rampart One', cursive;"> Página última vez actualizada: 21-8-21</p></div>
+               <div class="wsq" style="font-family: 'Rampart One', cursive; overflow: hidden; border-radius: 30px;">
+                    <img src="am.jfif" width="350px" style="margin-top: -60px" >
+               </div>
+           </div>
+       </div>
+       <div class="nuevo2" style="position: absolute; top: 240px; left: 100px;">
+        <ul  class="conts">
+            <li id="imagen2" style="width: 1000px;">
+                <img src="po7dndkgp2pbip8wq70m.jpg" style="width: 1000px">
+                <div class="pie" style="font-style:italic; color: white;">PC</div>
+            </li>
+            <li id="imagen1" style="width: 1000px">
+                <img src="primera-oficina.jpg" style="width: 1000px">
+                <div class="pie" style="font-style:italic; color: white;">Google</div>
+            </li>
+            <li id="imagen3" style="width: 1000px;">
+                <img src="105227163-GettyImages-92933016.600x400.jpg" style="width: 1000px">
+                <div class="pie" style="font-style:italic; color: white; ;">Apple</div>
+            </li>
+        </ul>
+        <ul class="contm">
+            <li id="uno" style="position: relative; left: 250px; display: inline-block;"><a href="#imagen1" style="color: white;">1</a></li>
+            <li id="dos" style="position: relative; left: 163px; display: inline-block;"><a href="#imagen2" style="color: white">2</a></li>
+            <li id="tres" style="position: relative; left: 75px; display: inline-block;"><a href="#imagen3" style="color: white">3</a></li>
+        </ul>
+        <script>
+            (function(){
+            var uno = document.getElementById("uno");
+            var dos = document.getElementById("dos");
+            var tres = document.getElementById("tres");
+            
+            var a  = function(){
+                uno.style.opacity = 0;
+                dos.style.opacity = 1;
+                tres.style.opacity = 1;
+                document.getElementById("imagen1").style.opacity = 1;
+                document.getElementById("imagen2").style.opacity = 0;
+                document.getElementById("imagen3").style.opacity = 0;
+            }
+            setInterval(a,5000);
+            var b = function(){
+                uno.style.opacity = 1;
+                dos.style.opacity = 0;
+                tres.style.opacity = 1;
+                document.getElementById("imagen2").style.opacity = 1;
+                document.getElementById("imagen1").style.opacity = 0;
+                document.getElementById("imagen3").style.opacity = 0;
+            }
+            setInterval(b,10000);
+            var c = function(){
+                uno.style.opacity = 1;
+                dos.style.opacity = 1;
+                tres.style.opacity = 0;
+                document.getElementById("imagen3").style.opacity = 1;
+                document.getElementById("imagen2").style.opacity = 0;
+                document.getElementById("imagen1").style.opacity = 0;
+            }
+            setInterval(c,15000);
+
+            var cas = function(){
+                setInterval(a,100000);
+                setInterval(b,100000);
+                setInterval(c,100000);
+            }
+
+            uno.addEventListener("click", a);
+            uno.addEventListener("click",cas);
+            dos.addEventListener("click", b);
+            dos.addEventListener("click",cas);
+            tres.addEventListener("click", c);
+            tres.addEventListener("click",cas);
+            }())
+        </script>
+    </div>
+</div>
+        
+    </body>
+</html>

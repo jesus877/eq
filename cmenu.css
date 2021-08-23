@@ -1,0 +1,94 @@
+.nuevo{
+    width:1310px;
+    height: 410px;
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+}
+
+.nuevo1{
+    width: 600px;
+    height: 360px;
+    
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px;
+}
+
+.nuevo2{
+    width: 690px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    flex-wrap: nowrap;
+}
+
+ul.conts li{
+    list-style: none;
+    position: absolute;
+    align-items: center;
+    width: inherit;
+    height: inherit;
+    margin-top: -16px;
+    margin-left: -40px;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+ul.contm{
+    position: absolute;
+    bottom: 10px;
+    right: 290px;
+}
+
+ul.conts li img{
+    width:680px;
+    height: 360px;
+    object-fit: cover;
+}
+
+ul.contm li{
+    list-style: none;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #003D73;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    visibility: visible;
+    transition: opacity .5s;
+}
+
+ul.contm li:nth-child(2){
+    opacity: 0;
+}
+
+ul.conts li:first-child {
+    opacity: 1; 
+    object-fit: cover;
+    background-color: tr;
+}
+
+ul.conts li:target {
+    opacity: 1;
+}
+
+.pie{
+    position: absolute; 
+    background-color: #003D73;
+    bottom: -40px;
+    right: 0px;
+    width: 140px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.wsq{
+    margin-left: 10px;
+    width: 390px;
+    height: 112px;
+    margin-top: 5px;
+}
